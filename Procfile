@@ -1,1 +1,1 @@
-worker: dash start
+worker: bash start
