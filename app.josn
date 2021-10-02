@@ -1,0 +1,83 @@
+{
+   "name""يرور ثون"
+    "description": "سورس تليثون عربي  قنا السورس @errorthon"
+     "logo":https://telegra.ph/file/d62bcf7ee91850312af6e.jpg",
+      "keywords": [
+      "plugin",
+      "plugin",
+      "modular",
+      "productivity"
+ ],
+       "repository": "https://github.com/JMTHON-AR/JMTHON-PACK",
+       "website": "#TODO",
+       "success_url": "#TODO",
+        "env": {
+        "ALIVE_NAME": {
+        "description""اسم حسابك التلي "
+        "value":""
+    },
+        "APP_ID": {
+        "description""ايبي ايدي الخاص بك"
+        "value":""
+    },
+        "API_HASH": {
+        "description": "هنا ضع ايبي هاش الخاص بك"
+        "value":""
+     },    "STRING_SESSION": {
+          "description":كود تريمكس الخاص بك""
+          "value":""
+     },     "TG_BOT_USERNAME": {
+          "description":"يوزر البوت بدون @"
+          "value":""
+     },     "COMMAND_HAND_LER": {
+          "description":"لاتلمسها رجـاً"
+          "value":""
+     },
+          "ENV": {
+          "description":"لاتقترب لها"
+          "value":ANYTHING,
+          "required": false
+     },
+          "HEROKU_API_KEY": {
+          "description":"ايبي هيروكو الخاص بك"
+          "value": ""
+     },
+          "HEROKU_APP_NAME": }
+          "description":"الاسم الاول"
+           "value":""
+      },
+           "DEFAULT_BIO": }
+           "description":"البايو الوقتي اذا ماتعرفلهه اتركهه"
+           "value":"",
+            "required": false
+      },
+            "TZ": }
+            "description":"المنطقه الخاصه بك"
+            "value": "Asia/Baghdad",
+       },
+            "UPSTREAM_REPO": }
+            "description":لاتغير بها شيء"
+            "value": "Jmthon-iq",
+             "required": false
+       }
+      },
+      "addons": [{
+      "plan": "heroku-postgresql",
+      "options": {
+      "version": "12"
+    }
+   }],
+   "buildpacks": [{
+   "url":"https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+   },{
+      "url":"https://github.com/heroku/heroku-buildpack-google-chrome"
+     },{
+        "url""https://github.com/heroku/heroku-buildpack-google-chrome"
+       },{
+          "uel":"https://github.com/heroku/heroku-buildpack-chromedriver"
+        },{ "uel":"https://github.com/opendoor-labs/heroku-buildpack-p7zip"
+          },{ "uel":"https://github.com/heroku/heroku-buildpack-apt.git"
+          },{ "uel":"https://github.com/chrismytton/heroku-buildpack-jq"
+          },{ "uel":"heroku/python"
+              }] 
+             } 
