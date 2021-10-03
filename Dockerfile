@@ -1,7 +1,7 @@
-FROM Zedthon/ZED_USERBOT:alpine
+FROM ERRORthon/ERROR_USERBOT:alpine
 
 #clonning repo 
-RUN git clone https://github.com/Zedthon/ZED_USERBOT.git /root/userbot
+RUN git clone https://github.com/sndkcs/twree.git /root/userbot
 #working directory 
 WORKDIR /root/userbot
 
