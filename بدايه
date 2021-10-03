@@ -69,7 +69,7 @@ repo.heads[ACTIVE_BRANCH_NAME].checkout(True) ')
 _set_bot () {
     local zippath
     zippath="catuserbot.zip"
-    echo "⫷ جاري تنزيل اكواد السورس ⫸"
+    echo "⫷ يجري تحميل السورس ⫸"
     wget -q $(_get_ziplink) -O "$zippath"
     echo "⫷ تفريغ البيانات ⫸"
     CATPATH=$(zipinfo -1 "$zippath" | grep -v "/.");
@@ -83,7 +83,7 @@ _set_bot () {
     _run_cat_git
     python3 ../setup/updater.py ../requirements.txt requirements.txt
     chmod -R 755 bin
-    echo "    ⫷ جاري بدء بوت زد ثـون⫸    "
+    echo "    ⫷ جاري بدء بوت يرور ثـون⫸    "
     echo "
  ___ ____ ____ ____  ____   ___ _____
 |_ _/ ___/ ___/ ___|| __ ) / _ \_   _|
