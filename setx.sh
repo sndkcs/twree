@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "
-          Zedthon
+          ERRORthon
         𓍹 Visit @errorthon for help 𓍻
 "
 
